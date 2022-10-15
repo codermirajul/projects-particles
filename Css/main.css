@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#hero {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url(../img/bg.jpg) no-repeat center / cover;
+    background-blend-mode: overlay;
+}
+
+
+.Hero-content-box {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+h1 {
+   color: #fff;
+   text-align: center;
+}
+
+.social-list li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.social-list li a ion-icon {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50%;    
+}
+
+.social-list li:hover a ion-icon {
+    background: red;   
+}
+
+
+
+
+
